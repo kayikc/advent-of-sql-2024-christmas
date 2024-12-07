@@ -1,8 +1,7 @@
 # Advent of SQL 2024 - Christmas
 
-## Day 1 Questions:
+## Day 1 Task Description:
 
-### Task Description:
 Create a report showing what gifts children want, with difficulty ratings and categorization.
 
 - The **primary wish** will be the first choice.
@@ -32,7 +31,7 @@ name,primary_wish,backup_wish,favorite_color,color_count,gift_co
 ```
 ---
 
-## Day 5 Questions:
+## Day 5 Task Description:
 
 - List each day's **production date** and the number of toys produced on that day.
 - Include the **previous day's** toy production next to each current day's production.

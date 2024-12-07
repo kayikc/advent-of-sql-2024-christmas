@@ -32,14 +32,14 @@ name,primary_wish,backup_wish,favorite_color,color_count,gift_co
 ```
 ---
 
-### Day 5 Questions:
+## Day 5 Questions:
 
 - List each day's **production date** and the number of toys produced on that day.
 - Include the **previous day's** toy production next to each current day's production.
 - Calculate the **change** in the number of toys produced compared to the previous day.
 - Calculate the **percentage change** in production compared to the previous day.
 
-### Output Format:
+#### To submit on Day 1:
 
 - Submit the date of the day with the **largest daily increase in percentage**.
 

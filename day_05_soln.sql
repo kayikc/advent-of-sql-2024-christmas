@@ -7,7 +7,7 @@ WITH ranked_data AS (
 )
 SELECT
     production_date,
-	toys_produced - prev_toys_produced,
+    toys_produced - prev_toys_produced,
     100.0 * (toys_produced - prev_toys_produced) / prev_toys_produced AS percentage_delta
 FROM ranked_data
 WHERE prev_toys_produced IS NOT NULL

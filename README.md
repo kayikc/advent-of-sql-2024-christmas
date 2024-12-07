@@ -1,5 +1,11 @@
 # Advent of SQL 2024 - Christmas
 
+<img src="https://unsplash.com/photos/two-figurines-near-pinecones-nN8c1cCGsZI" alt="christmas_elf" width="400" />
+
+<img src="https://duckdb.org/images/logo-dl/DuckDB_Logo.pdf" alt="DuckDB Logo" width="200" />
+
+I used [**DuckDB**](https://duckdb.org/) to do the queries.
+
 ## Day 1 Task Description:
 
 Create a report showing what gifts children want, with difficulty ratings and categorization.

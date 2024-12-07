@@ -1,7 +1,6 @@
 # Advent of SQL 2024 - Christmas
 
 ![christmas_elf](assets/page-cody.jpg)
-![DuckDB Logo](assets/DuckDB_Logo.pdf)
 
 I used [**DuckDB**](https://duckdb.org/) to do the queries.
 

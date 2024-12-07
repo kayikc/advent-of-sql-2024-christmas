@@ -22,18 +22,8 @@ We assign the **workshop** based on the primary wish's toy category. Assume the 
   educational = Learning Workshop
   all other types = General Workshop
 ```
-
 - Order the list by name in ascending order.
 - Limit the result to only 5 rows.
-
-### Output Format:
-Provide one row per output in the following format, with no spaces and comma separation:
-
-
-
-In the inputs below provide one row per input in the format, with no spaces and comma separation:
-
-name,primary_wish,backup_wish,favorite_color,color_count,gift_co
 
 #### To submit on Day 1:
 In the inputs below provide one row per input in the format, with no spaces and comma separation:
@@ -52,7 +42,5 @@ name,primary_wish,backup_wish,favorite_color,color_count,gift_co
 ### Output Format:
 
 - Submit the date of the day with the **largest daily increase in percentage**.
-
-### Solution SQL for Day 5:
 
 

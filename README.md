@@ -1,6 +1,6 @@
 # Advent of SQL 2024 - Christmas
 
-<img src="https://unsplash.com/photos/two-figurines-near-pinecones-nN8c1cCGsZI" alt="christmas_elf" width="400" />
+<img src="https://camo.githubusercontent.com/cc53dd7fa6d981b5b75256d99315301e1227948c5b80f4a8de43bc22c20ab27c/68747470733a2f2f756e73706c6173682e636f6d2f70686f746f732f74776f2d6669677572696e65732d6e6561722d70696e65636f6e65732d6e4e386331634347735a49" alt="christmas_elf" width="400" />
 
 <img src="https://duckdb.org/images/logo-dl/DuckDB_Logo.pdf" alt="DuckDB Logo" width="200" />
 

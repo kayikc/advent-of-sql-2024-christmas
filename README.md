@@ -58,6 +58,7 @@ CREATE TABLE letters_b (
 ```
 #### To submit on Day 2:
 Something like this: Dear Santa, I would like a Pony for Christmas, Love Susie
+
 ---
 ## Day 5 Task Description:
 

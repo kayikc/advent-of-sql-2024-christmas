@@ -34,7 +34,29 @@ In the inputs below provide one row per input in the format, with no spaces and 
 name,primary_wish,backup_wish,favorite_color,color_count,gift_co
 ```
 ---
+## Day 2 Task Description
 
+Decode a child's Christmas wish from two tables affected by magical Northern Lights interference! We need to:
+1. Filter out the holiday sparkles (noise)
+2. Combine Binky and Blinky's tables
+3. Decode the values back into regular letters
+4. Make sure everything's in the right order!
+
+### Table Schemas
+```sql
+-- Binky's Table
+CREATE TABLE letters_a (
+    id SERIAL PRIMARY KEY,
+    value INTEGER
+);
+
+-- Blinky's Table
+CREATE TABLE letters_b (
+    id SERIAL PRIMARY KEY,
+    value INTEGER
+);
+```
+---
 ## Day 5 Task Description:
 
 - List each day's **production date** and the number of toys produced on that day.

@@ -11,3 +11,6 @@ WITH allowed_chars AS (
 )
 SELECT string_agg(chr(value), '' ORDER BY id) AS decoded_message
 FROM allowed_chars;
+
+--OUTPUT
+--Dear Santa, I hope this letter finds you well in the North Pole! I want a SQL course for Christmas!

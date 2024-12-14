@@ -2,7 +2,7 @@
 
 ![christmas_elf](asset/paige-cody.jpg)
 
-I used [**DuckDB**](https://duckdb.org/) and [**postgre**](https://www.postgresql.org/) to do the queries.
+I used [**DuckDB**](https://duckdb.org/) and [**PostgreSQL**](https://www.postgresql.org/) to do the queries.
 
 ## Day 1 Task Description:
 

@@ -86,6 +86,42 @@ CREATE TABLE christmas_menus (
 Input the food_item_id of the food item that appears the most often.
 
 ---
+## Day 4 Task Description
+
+Help the elves analyze toy tags by finding:
+1. New tags that weren't in previous_tags (call this added_tags)
+2. Tags that appear in both previous and new tags (call this unchanged_tags)
+3. Tags that were removed (call this removed_tags)
+
+For each toy, return toy_name and these three categories as arrays.
+
+Remember to handle cases where the array is empty, their output should be 0.
+### Table Schemas
+```sql
+DROP TABLE IF EXISTS toy_production CASCADE;
+CREATE TABLE toy_production (
+  toy_id INT,
+  toy_name VARCHAR(100),
+  previous_tags TEXT[],
+  new_tags TEXT[]
+);
+```
+### Sample Data
+```sql
+INSERT INTO toy_production VALUES
+(1, 'Robot', ARRAY['fun', 'battery'], ARRAY['smart', 'battery', 'educational', 'scientific']),
+(2, 'Doll', ARRAY['cute', 'classic'], ARRAY['cute', 'collectible', 'classic']),
+(3, 'Puzzle', ARRAY['brain', 'wood'], ARRAY['educational', 'wood', 'strategy']);
+```
+#### To submit on Day 4:
+Find the toy with the most added tags, there is only 1, and submit the following:
+- toy_id
+- added_tags length
+- unchanged_tags length
+- removed_tags length
+Remember to handle cases where the array is empty, their output should be 0.
+
+---
 ## Day 5 Task Description:
 
 - List each day's **production date** and the number of toys produced on that day.

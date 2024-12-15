@@ -60,6 +60,32 @@ CREATE TABLE letters_b (
 Something like this: Dear Santa, I would like a Pony for Christmas, Love Susie
 
 ---
+## Day 3 Task Description
+
+The challenge is that some records are stored in different XML schemas. Mrs. Claus needs help writing a SQL query that can search through all schema versions to find the most beloved dishes from the busiest celebrations. As she's having more than 78 guests this year, she wants to make sure the dishes are popular with a large crowd, so only use years where she had more than 78 guests.
+
+You will have to do some prep-work before you write your final query, like understanding how many unique schema versions exist and how to parse each schema using SQL.
+
+Help Mrs. Claus write a SQL query that can:
+
+1. Parse through all different schema versions of menu records
+2. Find menu entries where the guest count was above 78
+3. Extract the food_item_ids from those successful big dinners
+4. From this enormous list of items, determine which dish (by food_item_id) appears most frequently across all of the dinners
+
+### Table Schemas
+```sql
+DROP TABLE IF EXISTS christmas_menus CASCADE;
+
+CREATE TABLE christmas_menus (
+  id SERIAL PRIMARY KEY,
+  menu_data XML
+);
+```
+#### To submit on Day 3:
+Input the food_item_id of the food item that appears the most often.
+
+---
 ## Day 5 Task Description:
 
 - List each day's **production date** and the number of toys produced on that day.
@@ -67,7 +93,7 @@ Something like this: Dear Santa, I would like a Pony for Christmas, Love Susie
 - Calculate the **change** in the number of toys produced compared to the previous day.
 - Calculate the **percentage change** in production compared to the previous day.
 
-#### To submit on Day 1:
+#### To submit on Day 5:
 
 - Submit the date of the day with the **largest daily increase in percentage**.
 

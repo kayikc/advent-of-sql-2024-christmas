@@ -1,3 +1,4 @@
+```sql
 SELECT
     child.name,
     json_extract_string(wish.wishes, '$.first_choice') AS primary_wish,
@@ -25,3 +26,4 @@ LEFT JOIN
 ORDER BY
     child.name
 LIMIT 5;
+```
